@@ -34,9 +34,9 @@ collections:
 
 # Navigation bar links.
 navigation:
-  - title: 主页 Home
+  - title: CFH Home
     link: /
-  - title: 科学研究 Research
+  - title: 趣味研究 Funny Research
     link: /research.html
   - title: 论文 Publications
     link: /publications.html
