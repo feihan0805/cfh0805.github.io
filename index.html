@@ -29,20 +29,7 @@ role-tables:
     </p>
 </div>
 
-<section>
-    <h2>News</h2>
-    <ul class="news list-unstyled">
-        {% for post in site.posts limit: site.front_page_news %}
-            {% include news-item.html item=post %}
-        {% endfor %}
-    </ul>
-    {% assign numposts = site.posts | size %}
-    {% if numposts >= 1 %}
-        <p>
-            <span class="fa fa-fw fa-history"></span>
-            <a href="{{ site.base }}/blog.html">Older posts&hellip;</a>
-        </p>
-    {% endif %}
+
 </section>
 
 <script
@@ -59,12 +46,7 @@ role-tables:
 	src="https://gradio.s3-us-west-2.amazonaws.com/6.3.0/gradio.js"
 ></script>
 
-<gradio-app src="https://sanchit-gandhi-musicgen-streaming.hf.space"></gradio-app>
-<iframe
-	src="https://r3gm-wan2-2-fp8da-aoti-preview.hf.space"
-	frameborder="0"
-	width="850"
-	height="450"
+
 ></iframe>
 
 
